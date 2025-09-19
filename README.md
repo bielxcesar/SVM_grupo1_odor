@@ -12,6 +12,7 @@ No subconjunto S1 – Odor, cada cogumelo é descrito apenas pelo seu odor carac
  
 A questão que guia este cenário é:
 ➡ Será que o odor, isoladamente, é suficiente para prever se um cogumelo é venenoso ou comestível?
+
 Resposta: Não, a máquina ainda vai cometer erros com apenas odor. É nada garantido essa informações, pois a ainda muitos mais outros critérios a ser analisados para poder ter uma resposta satisfatória, afinal todo cuidado é pouco, quando se trata de ingerir um alimento perigoso.
  
 O grupo deverá aplicar um classificador SVM (Support Vector Machine) nesse dataset para responder a essa pergunta, avaliando métricas como acurácia e matriz de confusão para a classe venenosa. O objetivo é entender até que ponto uma única característica sensorial pode sustentar uma decisão crítica de classificação.
